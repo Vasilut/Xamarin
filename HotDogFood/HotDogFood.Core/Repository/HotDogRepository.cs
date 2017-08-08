@@ -16,11 +16,11 @@ namespace HotDogFood.Core.Repository
                 ImagePath = "",
                 HotDogs = new List<HotDog>()
                 {
-                    new HotDog { HotDogId = 1, Name = "L1", Available = true, PrepTime = 10, Price = 5 },
+                    new HotDog { HotDogId = 1, Name = "HotDog1", Available = true, PrepTime = 10, Price = 5, ShortDescription = "Short D1", Description = "Nebunie1" },
 
-                    new HotDog { HotDogId = 2, Name = "L2", Available = true, PrepTime = 12, Price = 7 },
+                    new HotDog { HotDogId = 2, Name = "HotDog2", Available = true, PrepTime = 12, Price = 7, ShortDescription = "Short D2", Description = "Nebunie2" },
 
-                    new HotDog { HotDogId = 3, Name = "L3", Available = true, PrepTime = 13, Price = 9 },
+                    new HotDog { HotDogId = 3, Name = "HotDog3", Available = true, PrepTime = 13, Price = 9, ShortDescription = "Short D3", Description = "Nebunie3" },
                 }
 
             });
@@ -32,11 +32,11 @@ namespace HotDogFood.Core.Repository
                 ImagePath = "",
                 HotDogs = new List<HotDog>()
                 {
-                    new HotDog { HotDogId = 4, Name = "L4", Available = true, PrepTime = 10, Price = 5 },
+                    new HotDog { HotDogId = 4, Name = "HotDog4", Available = true, PrepTime = 10, Price = 5, ShortDescription = "Short D4", Description = "Nebunie4" },
 
-                    new HotDog { HotDogId = 4, Name = "L5", Available = true, PrepTime = 12, Price = 7 },
+                    new HotDog { HotDogId = 4, Name = "HotDog5", Available = true, PrepTime = 12, Price = 7, ShortDescription = "Short D5", Description = "Nebunie5" },
 
-                    new HotDog { HotDogId = 5, Name = "L6", Available = true, PrepTime = 13, Price = 9 },
+                    new HotDog { HotDogId = 5, Name = "HotDog6", Available = true, PrepTime = 13, Price = 9, ShortDescription = "Short D6", Description = "Nebunie6" },
                 }
 
             });

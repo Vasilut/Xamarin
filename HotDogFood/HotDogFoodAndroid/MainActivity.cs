@@ -14,7 +14,7 @@ namespace HotDogFoodAndroid
             // Set our view from the "main" layout resource
             SetContentView (Resource.Layout.Main);
 
-            Button button = FindViewById<Button>(Resource.Id.button1);
+            Button button = FindViewById<Button>(Resource.Id.MyButton);
             button.Click += delegate { button.Text = "Click me once, two"; };
         }
     }
